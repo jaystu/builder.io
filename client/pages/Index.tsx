@@ -1,5 +1,15 @@
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, AlertCircle, Lock, Mail, MessageSquare, ArrowRight, Smartphone, AlertTriangle, Users } from "lucide-react";
+import {
+  CheckCircle2,
+  AlertCircle,
+  Lock,
+  Mail,
+  MessageSquare,
+  ArrowRight,
+  Smartphone,
+  AlertTriangle,
+  Users,
+} from "lucide-react";
 
 export default function Index() {
   return (
@@ -31,7 +41,10 @@ export default function Index() {
             <div className="mb-12 flex justify-center">
               <div className="relative w-32 h-32">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-500 rounded-full opacity-10 animate-pulse" />
-                <div className="absolute inset-2 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full opacity-5 animate-pulse" style={{ animationDelay: '1s' }} />
+                <div
+                  className="absolute inset-2 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full opacity-5 animate-pulse"
+                  style={{ animationDelay: "1s" }}
+                />
                 <div className="relative flex items-center justify-center h-full bg-gradient-to-br from-blue-600 to-blue-700 rounded-full shadow-2xl">
                   <Lock className="w-16 h-16 text-white animate-bounce" />
                 </div>
@@ -40,13 +53,20 @@ export default function Index() {
 
             <h1 className="text-5xl sm:text-6xl font-bold text-slate-900 mb-6 leading-tight">
               Smart Lock Battery Automation,
-              <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent"> Zero Downtime</span>
+              <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">
+                {" "}
+                Zero Downtime
+              </span>
             </h1>
             <p className="text-xl text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
-              Don't let your guests get locked out.&nbsp; LockAlerts monitors your smart lock's health to give you maximum peace of mind.
+              Don't let your guests get locked out.&nbsp; LockAlerts monitors
+              your smart lock's health to give you maximum peace of mind.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-base h-12 px-8">
+              <Button
+                size="lg"
+                className="bg-blue-600 hover:bg-blue-700 text-white text-base h-12 px-8"
+              >
                 Try It
                 <br />
                 <ArrowRight className="w-4 h-4 ml-2" />
@@ -71,9 +91,12 @@ export default function Index() {
               <div className="flex items-center justify-center w-14 h-14 bg-red-100 rounded-lg mb-4">
                 <AlertTriangle className="w-7 h-7 text-red-600" />
               </div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Missed Alerts</h3>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Missed Alerts
+              </h3>
               <p className="text-slate-600">
-                Manual checks are unreliable. You need instant notifications when the issue occurs.
+                Manual checks are unreliable. You need instant notifications
+                when the issue occurs.
               </p>
             </div>
 
@@ -81,9 +104,12 @@ export default function Index() {
               <div className="flex items-center justify-center w-14 h-14 bg-red-100 rounded-lg mb-4">
                 <Smartphone className="w-7 h-7 text-red-600" />
               </div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Locked Out</h3>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Locked Out
+              </h3>
               <p className="text-slate-600">
-                Without a spare key, guests will be locked out of your house and will need to reach out to you for help.
+                Without a spare key, guests will be locked out of your house and
+                will need to reach out to you for help.
               </p>
             </div>
 
@@ -91,9 +117,12 @@ export default function Index() {
               <div className="flex items-center justify-center w-14 h-14 bg-red-100 rounded-lg mb-4">
                 <Users className="w-7 h-7 text-red-600" />
               </div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Bad Guest Experience</h3>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                Bad Guest Experience
+              </h3>
               <p className="text-slate-600">
-                Poor lock reliability leads to negative reviews and cancellations from potential guests.
+                Poor lock reliability leads to negative reviews and
+                cancellations from potential guests.
               </p>
             </div>
           </div>
@@ -109,7 +138,7 @@ export default function Index() {
           <p className="text-center text-slate-600 mb-12 text-lg">
             Simple, automated, always-on monitoring
           </p>
-          
+
           <div className="space-y-8">
             <div className="flex gap-6">
               <div className="flex-shrink-0">
@@ -118,13 +147,16 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-slate-900 mb-2">Connect Your Locks</h3>
+                <h3 className="text-xl font-semibold text-slate-900 mb-2">
+                  Connect Your Locks
+                </h3>
                 <p className="text-slate-600">
-                  Integrate with your smart lock systems using Seam. Works with all major brands.
+                  Integrate with your smart lock systems using Seam. Works with
+                  all major brands.
                 </p>
               </div>
             </div>
-            
+
             <div className="flex gap-6">
               <div className="flex-shrink-0">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-600">
@@ -132,13 +164,16 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-slate-900 mb-2">Automatic Health Checks</h3>
+                <h3 className="text-xl font-semibold text-slate-900 mb-2">
+                  Automatic Health Checks
+                </h3>
                 <p className="text-slate-600">
-                  LockAlerts continuously monitors your locks' status, battery, connectivity, and more.
+                  LockAlerts continuously monitors your locks' status, battery,
+                  connectivity, and more.
                 </p>
               </div>
             </div>
-            
+
             <div className="flex gap-6">
               <div className="flex-shrink-0">
                 <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-blue-600">
@@ -146,9 +181,12 @@ export default function Index() {
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-slate-900 mb-2">Instant Alerts</h3>
+                <h3 className="text-xl font-semibold text-slate-900 mb-2">
+                  Instant Alerts
+                </h3>
                 <p className="text-slate-600">
-                  Critical issues trigger real-time notifications via email and SMS so you can act fast.
+                  Critical issues trigger real-time notifications via email and
+                  SMS so you can act fast.
                 </p>
               </div>
             </div>
@@ -165,53 +203,79 @@ export default function Index() {
           <p className="text-center text-slate-600 mb-12 text-lg">
             Everything you need to keep your smart locks running perfectly
           </p>
-          
+
           <div className="grid md:grid-cols-2 gap-8">
             <div className="flex gap-4">
               <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-1">Real-Time Monitoring</h3>
-                <p className="text-slate-600">24/7 continuous health checks across all your smart locks</p>
+                <h3 className="text-lg font-semibold text-slate-900 mb-1">
+                  Real-Time Monitoring
+                </h3>
+                <p className="text-slate-600">
+                  24/7 continuous health checks across all your smart locks
+                </p>
               </div>
             </div>
-            
+
             <div className="flex gap-4">
               <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-1">Multi-Channel Alerts</h3>
-                <p className="text-slate-600">Critical notifications via email and SMS so you never miss an issue</p>
+                <h3 className="text-lg font-semibold text-slate-900 mb-1">
+                  Multi-Channel Alerts
+                </h3>
+                <p className="text-slate-600">
+                  Critical notifications via email and SMS so you never miss an
+                  issue
+                </p>
               </div>
             </div>
-            
+
             <div className="flex gap-4">
               <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-1">Battery Alerts</h3>
-                <p className="text-slate-600">Get notified before batteries die so you can replace them proactively</p>
+                <h3 className="text-lg font-semibold text-slate-900 mb-1">
+                  Battery Alerts
+                </h3>
+                <p className="text-slate-600">
+                  Get notified before batteries die so you can replace them
+                  proactively
+                </p>
               </div>
             </div>
-            
+
             <div className="flex gap-4">
               <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-1">Connectivity Checks</h3>
-                <p className="text-slate-600">Know instantly if a lock loses network connection</p>
+                <h3 className="text-lg font-semibold text-slate-900 mb-1">
+                  Connectivity Checks
+                </h3>
+                <p className="text-slate-600">
+                  Know instantly if a lock loses network connection
+                </p>
               </div>
             </div>
-            
+
             <div className="flex gap-4">
               <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-1">Guest Protection</h3>
-                <p className="text-slate-600">Ensure guests never encounter locked-out situations</p>
+                <h3 className="text-lg font-semibold text-slate-900 mb-1">
+                  Guest Protection
+                </h3>
+                <p className="text-slate-600">
+                  Ensure guests never encounter locked-out situations
+                </p>
               </div>
             </div>
-            
+
             <div className="flex gap-4">
               <CheckCircle2 className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-1">Multi-Property Support</h3>
-                <p className="text-slate-600">Monitor and manage locks across multiple properties</p>
+                <h3 className="text-lg font-semibold text-slate-900 mb-1">
+                  Multi-Property Support
+                </h3>
+                <p className="text-slate-600">
+                  Monitor and manage locks across multiple properties
+                </p>
               </div>
             </div>
           </div>
@@ -227,21 +291,27 @@ export default function Index() {
           <p className="text-center text-slate-600 mb-12 text-lg">
             Multiple channels to keep you informed
           </p>
-          
+
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white rounded-lg p-8 border border-slate-200">
               <Mail className="w-12 h-12 text-blue-600 mb-4" />
-              <h3 className="text-2xl font-semibold text-slate-900 mb-2">Email Notifications</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-2">
+                Email Notifications
+              </h3>
               <p className="text-slate-600">
-                Detailed alerts delivered to your inbox with full context about what happened and how to fix it.
+                Detailed alerts delivered to your inbox with full context about
+                what happened and how to fix it.
               </p>
             </div>
-            
+
             <div className="bg-white rounded-lg p-8 border border-slate-200">
               <MessageSquare className="w-12 h-12 text-blue-600 mb-4" />
-              <h3 className="text-2xl font-semibold text-slate-900 mb-2">SMS Alerts</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 mb-2">
+                SMS Alerts
+              </h3>
               <p className="text-slate-600">
-                Get critical alerts as text messages so you're notified instantly, even when you're on the go.
+                Get critical alerts as text messages so you're notified
+                instantly, even when you're on the go.
               </p>
             </div>
           </div>
@@ -257,7 +327,10 @@ export default function Index() {
           <p className="text-xl text-blue-100 mb-8">
             Get real-time alerts and peace of mind. Start your free trial today.
           </p>
-          <Button size="lg" className="bg-white hover:bg-slate-100 text-blue-600 font-semibold text-base h-12 px-8">
+          <Button
+            size="lg"
+            className="bg-white hover:bg-slate-100 text-blue-600 font-semibold text-base h-12 px-8"
+          >
             Get Started Free
             <ArrowRight className="w-4 h-4 ml-2" />
           </Button>
@@ -279,35 +352,71 @@ export default function Index() {
                 Smart lock health monitoring for landlords and hosts.
               </p>
             </div>
-            
+
             <div>
               <h4 className="text-white font-semibold mb-4">Product</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-slate-300">Features</a></li>
-                <li><a href="#" className="hover:text-slate-300">Pricing</a></li>
-                <li><a href="#" className="hover:text-slate-300">Security</a></li>
+                <li>
+                  <a href="#" className="hover:text-slate-300">
+                    Features
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-slate-300">
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-slate-300">
+                    Security
+                  </a>
+                </li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="text-white font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-slate-300">About</a></li>
-                <li><a href="#" className="hover:text-slate-300">Blog</a></li>
-                <li><a href="#" className="hover:text-slate-300">Contact</a></li>
+                <li>
+                  <a href="#" className="hover:text-slate-300">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-slate-300">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-slate-300">
+                    Contact
+                  </a>
+                </li>
               </ul>
             </div>
-            
+
             <div>
               <h4 className="text-white font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-slate-300">Privacy</a></li>
-                <li><a href="#" className="hover:text-slate-300">Terms</a></li>
-                <li><a href="#" className="hover:text-slate-300">Cookies</a></li>
+                <li>
+                  <a href="#" className="hover:text-slate-300">
+                    Privacy
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-slate-300">
+                    Terms
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-slate-300">
+                    Cookies
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
-          
+
           <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-500">
             <p>&copy; 2024 LockAlerts. All rights reserved.</p>
           </div>
