@@ -15,7 +15,7 @@ export default function Index() {
             <span className="text-xl font-bold text-slate-900">LockAlerts</span>
           </div>
           <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-            Get Started
+            Try It
           </Button>
         </div>
       </header>
