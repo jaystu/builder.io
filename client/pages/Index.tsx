@@ -27,9 +27,15 @@ export default function Index() {
           <div className="absolute -left-40 top-40 w-80 h-80 bg-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2s" />
 
           <div className="relative text-center">
-            {/* Hero visual with lock, battery, and notification */}
+            {/* Hero visual with animated lock icon */}
             <div className="mb-12 flex justify-center">
-              <HeroIllustration />
+              <div className="relative w-32 h-32">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-500 rounded-full opacity-10 animate-pulse" />
+                <div className="absolute inset-2 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full opacity-5 animate-pulse" style={{ animationDelay: '1s' }} />
+                <div className="relative flex items-center justify-center h-full bg-gradient-to-br from-blue-600 to-blue-700 rounded-full shadow-2xl">
+                  <Lock className="w-16 h-16 text-white animate-bounce" />
+                </div>
+              </div>
             </div>
 
             <h1 className="text-5xl sm:text-6xl font-bold text-slate-900 mb-6 leading-tight">
