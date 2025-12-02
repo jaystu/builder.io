@@ -23,7 +23,11 @@ export default function Index() {
             </div>
             <span className="text-xl font-bold text-slate-900">LockAlerts</span>
           </div>
-          <a href="https://lockalerts.flutterflow.app/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://lockalerts.flutterflow.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button className="bg-blue-600 hover:bg-blue-700 text-white">
               Try It
             </Button>
@@ -65,7 +69,11 @@ export default function Index() {
               your smart lock's health to give you maximum peace of mind.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://lockalerts.flutterflow.app/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://lockalerts.flutterflow.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Button
                   size="lg"
                   className="bg-blue-600 hover:bg-blue-700 text-white text-base h-12 px-8"
@@ -331,7 +339,11 @@ export default function Index() {
           <p className="text-xl text-blue-100 mb-8">
             Get real-time alerts and peace of mind. Start your free trial today.
           </p>
-          <a href="https://lockalerts.flutterflow.app/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://lockalerts.flutterflow.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button
               size="lg"
               className="bg-white hover:bg-slate-100 text-blue-600 font-semibold text-base h-12 px-8"
