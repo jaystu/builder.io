@@ -72,21 +72,21 @@ export default function Index() {
               </p>
             </div>
 
-            <div className="p-8 rounded-xl border-2 border-red-200 bg-gradient-to-br from-red-50 to-white hover:shadow-lg transition-shadow">
+            <div className="p-8 rounded-xl border-2 border-red-200 bg-gradient-to-br from-red-50 to-white hover:shadow-lg transition-shadow mb-7">
               <div className="flex items-center justify-center w-14 h-14 bg-red-100 rounded-lg mb-4">
                 <Smartphone className="w-7 h-7 text-red-600" />
               </div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">Locked Out</h3>
               <p className="text-slate-600">
-                Without a spare key, guests will be locked out of your house and your reviews will suffer
+                Without a spare key, guests will be locked out of your house and will need to reach out to you for help.
               </p>
             </div>
 
-            <div className="p-8 rounded-xl border-2 border-red-200 bg-gradient-to-br from-red-50 to-white hover:shadow-lg transition-shadow">
+            <div className="p-8 rounded-xl border-2 border-red-200 bg-gradient-to-br from-red-50 to-white hover:shadow-lg transition-shadow mb-7">
               <div className="flex items-center justify-center w-14 h-14 bg-red-100 rounded-lg mb-4">
                 <Users className="w-7 h-7 text-red-600" />
               </div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Guest Experience Ruined</h3>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">Bad Guest Experience</h3>
               <p className="text-slate-600">
                 Poor lock reliability leads to negative reviews and cancellations from potential guests.
               </p>
