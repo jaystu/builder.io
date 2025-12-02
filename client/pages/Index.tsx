@@ -119,7 +119,7 @@ export default function Index() {
               <div>
                 <h3 className="text-xl font-semibold text-slate-900 mb-2">Connect Your Locks</h3>
                 <p className="text-slate-600">
-                  Seamlessly integrate with your smart lock systems. Works with all major brands.
+                  Integrate with your smart lock systems using Seam. Works with all major brands.
                 </p>
               </div>
             </div>
