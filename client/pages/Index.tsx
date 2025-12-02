@@ -331,13 +331,15 @@ export default function Index() {
           <p className="text-xl text-blue-100 mb-8">
             Get real-time alerts and peace of mind. Start your free trial today.
           </p>
-          <Button
-            size="lg"
-            className="bg-white hover:bg-slate-100 text-blue-600 font-semibold text-base h-12 px-8"
-          >
-            Get Started Free
-            <ArrowRight className="w-4 h-4 ml-2" />
-          </Button>
+          <a href="https://lockalerts.flutterflow.app/" target="_blank" rel="noopener noreferrer">
+            <Button
+              size="lg"
+              className="bg-white hover:bg-slate-100 text-blue-600 font-semibold text-base h-12 px-8"
+            >
+              Get Started Free
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Button>
+          </a>
         </div>
       </section>
 
