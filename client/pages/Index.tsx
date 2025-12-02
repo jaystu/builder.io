@@ -42,7 +42,8 @@ export default function Index() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-base h-12 px-8">
-                Get Started
+                Try It
+                <br />
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </div>
