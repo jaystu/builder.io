@@ -65,14 +65,16 @@ export default function Index() {
               your smart lock's health to give you maximum peace of mind.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                className="bg-blue-600 hover:bg-blue-700 text-white text-base h-12 px-8"
-              >
-                Try It
-                <br />
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
+              <a href="https://lockalerts.flutterflow.app/" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="lg"
+                  className="bg-blue-600 hover:bg-blue-700 text-white text-base h-12 px-8"
+                >
+                  Try It
+                  <br />
+                  <ArrowRight className="w-4 h-4 ml-2" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>
