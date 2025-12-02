@@ -56,37 +56,43 @@ export default function Index() {
       </section>
 
       {/* Key Issues Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
+        <div className="max-w-4xl mx-auto flex flex-col">
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 text-center mb-4">
             The Problem with Smart Locks
           </h2>
           <p className="text-center text-slate-600 mb-12 text-lg">
             Without monitoring, you're flying blind
           </p>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6 rounded-lg border border-red-200 bg-red-50">
-              <AlertCircle className="w-8 h-8 text-red-600 mb-4" />
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Silent Failures</h3>
-              <p className="text-slate-600">
-                Locks fail without warning. Your guests discover the problem when they can't get in.
-              </p>
-            </div>
-            
-            <div className="p-6 rounded-lg border border-red-200 bg-red-50">
-              <MessageSquare className="w-8 h-8 text-red-600 mb-4" />
+
+          <div className="grid md:grid-cols-3 gap-8 justify-start items-start">
+            <div className="p-8 rounded-xl border-2 border-red-200 bg-gradient-to-br from-red-50 to-white hover:shadow-lg transition-shadow">
+              <div className="flex items-center justify-center w-14 h-14 bg-red-100 rounded-lg mb-4">
+                <AlertTriangle className="w-7 h-7 text-red-600" />
+              </div>
               <h3 className="text-lg font-semibold text-slate-900 mb-2">Missed Alerts</h3>
               <p className="text-slate-600">
-                Manual checks are unreliable. You need instant notifications when issues occur.
+                Manual checks are unreliable. You need instant notifications when the issue occurs.
               </p>
             </div>
-            
-            <div className="p-6 rounded-lg border border-red-200 bg-red-50">
-              <Lock className="w-8 h-8 text-red-600 mb-4" />
-              <h3 className="text-lg font-semibold text-slate-900 mb-2">Peace of Mind Lost</h3>
+
+            <div className="p-8 rounded-xl border-2 border-red-200 bg-gradient-to-br from-red-50 to-white hover:shadow-lg transition-shadow">
+              <div className="flex items-center justify-center w-14 h-14 bg-red-100 rounded-lg mb-4">
+                <Smartphone className="w-7 h-7 text-red-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">Locked Out</h3>
               <p className="text-slate-600">
-                Without real-time visibility, you can't be confident your locks are working.
+                Without a spare key, guests will be locked out of your house and your reviews will suffer
+              </p>
+            </div>
+
+            <div className="p-8 rounded-xl border-2 border-red-200 bg-gradient-to-br from-red-50 to-white hover:shadow-lg transition-shadow">
+              <div className="flex items-center justify-center w-14 h-14 bg-red-100 rounded-lg mb-4">
+                <Users className="w-7 h-7 text-red-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-slate-900 mb-2">Guest Experience Ruined</h3>
+              <p className="text-slate-600">
+                Poor lock reliability leads to negative reviews and cancellations from potential guests.
               </p>
             </div>
           </div>
