@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, AlertCircle, Lock, Mail, MessageSquare, ArrowRight, Smartphone, AlertTriangle, Users } from "lucide-react";
+import { HeroIllustration } from "@/components/HeroIllustration";
 
 export default function Index() {
   return (
