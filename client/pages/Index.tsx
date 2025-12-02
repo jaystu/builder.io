@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, AlertCircle, Lock, Mail, MessageSquare, ArrowRight } from "lucide-react";
+import { CheckCircle2, AlertCircle, Lock, Mail, MessageSquare, ArrowRight, Smartphone, AlertTriangle, Users } from "lucide-react";
 
 export default function Index() {
   return (
