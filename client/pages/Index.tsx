@@ -20,23 +20,37 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl sm:text-6xl font-bold text-slate-900 mb-6 leading-tight">
-            Smart Lock Monitoring,
-            <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent"> Zero Downtime</span>
-          </h1>
-          <p className="text-xl text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
-            LockAlerts keeps your smart locks healthy and your guests safe. Real-time alerts via email and SMS ensure you never miss a critical issue.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-base h-12 px-8">
-              Start Free Trial
-              <ArrowRight className="w-4 h-4 ml-2" />
-            </Button>
-            <Button size="lg" variant="outline" className="border-slate-300 text-slate-900 text-base h-12 px-8">
-              See Demo
-            </Button>
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white overflow-hidden">
+        <div className="max-w-4xl mx-auto">
+          {/* Decorative background elements */}
+          <div className="absolute -right-40 -top-40 w-80 h-80 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob" />
+          <div className="absolute -left-40 top-40 w-80 h-80 bg-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2s" />
+
+          <div className="relative text-center">
+            {/* Hero visual with lock icon and animated rings */}
+            <div className="mb-12 flex justify-center">
+              <div className="relative w-32 h-32">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-500 rounded-full opacity-10 animate-pulse" />
+                <div className="absolute inset-2 bg-gradient-to-r from-blue-500 to-blue-400 rounded-full opacity-5 animate-pulse animation-delay-1s" />
+                <div className="relative flex items-center justify-center h-full bg-gradient-to-br from-blue-600 to-blue-700 rounded-full shadow-2xl">
+                  <Lock className="w-16 h-16 text-white" />
+                </div>
+              </div>
+            </div>
+
+            <h1 className="text-5xl sm:text-6xl font-bold text-slate-900 mb-6 leading-tight">
+              Smart Lock Battery Replacement Automation,
+              <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent"> Zero Downtime</span>
+            </h1>
+            <p className="text-xl text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
+              Don't let your guests get locked out.&nbsp; LockAlerts monitors your smart lock's health to give you maximum peace of mind.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-base h-12 px-8">
+                Get Started
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
+            </div>
           </div>
         </div>
       </section>
