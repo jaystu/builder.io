@@ -20,13 +20,13 @@
 
       function gtag_report_conversion(url) {
         var callback = function () {
-          if (typeof(url) != 'undefined') {
+          if (typeof url != "undefined") {
             window.location = url;
           }
         };
-        gtag('event', 'conversion', {
-            'send_to': 'AW-11229866690/iIhJCKK8xbAYEMLV6Oop',
-            'event_callback': callback
+        gtag("event", "conversion", {
+          send_to: "AW-11229866690/iIhJCKK8xbAYEMLV6Oop",
+          event_callback: callback,
         });
         return false;
       }
