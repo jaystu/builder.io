@@ -70,8 +70,7 @@ export default function Index() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://lockalerts.flutterflow.app/"
-                target="_blank"
-                rel="noopener noreferrer"
+                onClick="return gtag_report_conversion('https://lockalerts.flutterflow.app/');"
               >
                 <Button
                   size="lg"
