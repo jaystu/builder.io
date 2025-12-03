@@ -25,8 +25,7 @@ export default function Index() {
           </div>
           <a
             href="https://lockalerts.flutterflow.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick="return gtag_report_conversion('https://lockalerts.flutterflow.app/');"
           >
             <Button className="bg-blue-600 hover:bg-blue-700 text-white">
               Try It
