@@ -339,8 +339,7 @@ export default function Index() {
           </p>
           <a
             href="https://lockalerts.flutterflow.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick="return gtag_report_conversion('https://lockalerts.flutterflow.app/');"
           >
             <Button
               size="lg"
